@@ -3,10 +3,10 @@
 - Create symbolic links to the configuration files as follows:
   
 ```bash
-ln -s ~/config/.vimrc ~/.vimrc
-ln -s ~/config/.vim ~/.vim
-ln -s ~/config/.tmux.conf ~/.tmux.conf
-ln -s ~/config/.tmux ~/.tmux
+ln -s ~/configs/.vimrc ~/.vimrc
+ln -s ~/configs/.vim ~/.vim
+ln -s ~/configs/.tmux.conf ~/.tmux.conf
+ln -s ~/configs/.tmux ~/.tmux
 ```
 
 That's it! :)
