@@ -1,11 +1,12 @@
 # Setup
-- Clone the Config repo onto your machine.
+- Clone the Config repo onto your machines home directory.
 - Create symbolic links to the configuration files as follows:
   
 ```bash
+ln -s ~/config/vimrc ~/.vimrc
+ln -s ~/config/vim ~/.vim
 ln -s ~/config/tmux.conf ~/.tmux.conf
 ln -s ~/config/tmux ~/.tmux
-tmux -f ~/config/tmux.conf
 ```
 
 That's it! :)
